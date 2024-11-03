@@ -1,7 +1,7 @@
 import React from "react";
 import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 import "./Sucursales.css";
 
 const Sucursales = () => {

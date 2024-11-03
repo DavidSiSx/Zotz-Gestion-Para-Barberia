@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import Skeleton from "./Skeleton";
-import image1 from "../images/20861.jpg";
-import image2 from "../images/barbero3.jpg";
-import image3 from "../images/client-doing-hair-cut-barber-shop-salon.jpg";
+import Skeleton from "../Skeleton";
+import image1 from "../../images/20861.jpg";
+import image2 from "../../images/barbero3.jpg";
+import image3 from "../../images/client-doing-hair-cut-barber-shop-salon.jpg";
 
 import "./Hub.css";
 

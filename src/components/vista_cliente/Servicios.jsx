@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 import "./Servicios.css";
-import Skeleton from "./Skeleton"; // Importa el componente Skeleton
-import serviceImage1 from '../images/Service1.jpg';
-import serviceImage2 from '../images/Service2.png';
-import serviceImage3 from '../images/Service3.jpg';
-import heroImage from '../images/heroImage.jpg'; 
-import Modal from "../components/Modal";
+import Skeleton from "../Skeleton"; // Importa el componente Skeleton
+import serviceImage1 from '../../images/Service1.jpg';
+import serviceImage2 from '../../images/Service2.png';
+import serviceImage3 from '../../images/Service3.jpg';
+import heroImage from '../../images/heroImage.jpg'; 
+import Modal from "./Modal";
 
 const Servicios = () => {
   const [isLoading, setIsLoading] = useState(true); // Estado para simular la carga
